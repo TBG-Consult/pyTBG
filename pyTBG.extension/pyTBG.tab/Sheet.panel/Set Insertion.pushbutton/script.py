@@ -3,7 +3,7 @@
 # Supports filtering Legends and Schedules by name
 
 # script Info
-__title__ = "VSC Connector"
+__title__ = "Set Insertion"
 __authors__ = ["Aran Mardoukhi | TBG Consult AB"]
 
 from pyrevit import revit, DB, script, forms
