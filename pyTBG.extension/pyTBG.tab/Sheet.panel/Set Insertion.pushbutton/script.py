@@ -2,6 +2,10 @@
 # pyRevit script: Move viewports and schedules to specified offset on sheet
 # Supports filtering Legends and Schedules by name
 
+# script Info
+__title__ = "VSC Connector"
+__authors__ = ["Aran Mardoukhi | TBG Consult AB"]
+
 from pyrevit import revit, DB, script, forms
 
 output = script.get_output()
