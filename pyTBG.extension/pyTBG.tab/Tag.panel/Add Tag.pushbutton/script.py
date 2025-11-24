@@ -19,7 +19,7 @@ selected_ids = uidoc.Selection.GetElementIds()
 views = [doc.GetElement(id) for id in selected_ids if isinstance(doc.GetElement(id), View)]
 
 if not views:
-    TaskDialog.Show("Error", "Please select at least one view.")
+    print("No views selected in Revit. Please select one or more views and run the script.")
     sys.exit()
 
 # 2. Get all model categories and sort alphabetically
